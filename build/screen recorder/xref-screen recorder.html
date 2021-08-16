@@ -162,6 +162,11 @@ imports:
  &#8226;   <a href="#collections.abc">collections.abc</a>
  &#8226;   <a href="#copyreg">copyreg</a>
  &#8226;   <a href="#cv2">cv2</a>
+ &#8226;   <a href="#email">email</a>
+ &#8226;   <a href="#email.encoders">email.encoders</a>
+ &#8226;   <a href="#email.mime.base">email.mime.base</a>
+ &#8226;   <a href="#email.mime.multipart">email.mime.multipart</a>
+ &#8226;   <a href="#email.mime.text">email.mime.text</a>
  &#8226;   <a href="#encodings">encodings</a>
  &#8226;   <a href="#encodings.aliases">encodings.aliases</a>
  &#8226;   <a href="#encodings.ascii">encodings.ascii</a>
@@ -293,6 +298,7 @@ imports:
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#numpy">numpy</a>
  &#8226;   <a href="#operator">operator</a>
+ &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pyautogui">pyautogui</a>
  &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
  &#8226;   <a href="#pyi_rth_inspect.py">pyi_rth_inspect.py</a>
@@ -303,9 +309,11 @@ imports:
  &#8226;   <a href="#pyi_rth_win32comgenpy.py">pyi_rth_win32comgenpy.py</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
  &#8226;   <a href="#sre_constants">sre_constants</a>
  &#8226;   <a href="#sre_parse">sre_parse</a>
+ &#8226;   <a href="#time">time</a>
  &#8226;   <a href="#traceback">traceback</a>
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#warnings">warnings</a>
@@ -604,6 +612,7 @@ imports:
  &#8226;   <a href="#PIL.ImageSequence">PIL.ImageSequence</a>
  &#8226;   <a href="#PIL.ImageShow">PIL.ImageShow</a>
  &#8226;   <a href="#PIL.ImageTk">PIL.ImageTk</a>
+ &#8226;   <a href="#PIL.Jpeg2KImagePlugin">PIL.Jpeg2KImagePlugin</a>
  &#8226;   <a href="#PIL.JpegImagePlugin">PIL.JpegImagePlugin</a>
  &#8226;   <a href="#PIL.PaletteFile">PIL.PaletteFile</a>
  &#8226;   <a href="#PIL.PdfParser">PIL.PdfParser</a>
@@ -1748,7 +1757,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#PIL.IcnsImagePlugin">PIL.IcnsImagePlugin</a>
+    <a href="#PIL">PIL</a>
+ &#8226;   <a href="#PIL.IcnsImagePlugin">PIL.IcnsImagePlugin</a>
  &#8226;   <a href="#PIL.Image">PIL.Image</a>
 
   </div>
@@ -4867,6 +4877,7 @@ imported by:
  &#8226;   <a href="#pycparser.ply.yacc">pycparser.ply.yacc</a>
  &#8226;   <a href="#secrets">secrets</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#xmlrpc.client">xmlrpc.client</a>
@@ -5098,6 +5109,7 @@ imported by:
  &#8226;   <a href="#cffi.vengine_cpy">cffi.vengine_cpy</a>
  &#8226;   <a href="#cffi.vengine_gen">cffi.vengine_gen</a>
  &#8226;   <a href="#cffi.verifier">cffi.verifier</a>
+ &#8226;   <a href="#scipy._lib._ccallback">scipy._lib._ccallback</a>
  &#8226;   <a href="#win32ctypes.core">win32ctypes.core</a>
  &#8226;   <a href="#win32ctypes.core.cffi._util">win32ctypes.core.cffi._util</a>
 
@@ -5772,6 +5784,7 @@ imported by:
  &#8226;   <a href="#pyrect">pyrect</a>
  &#8226;   <a href="#pyscreeze">pyscreeze</a>
  &#8226;   <a href="#queue">queue</a>
+ &#8226;   <a href="#scipy._lib._pep440">scipy._lib._pep440</a>
  &#8226;   <a href="#screen recorder.py">screen recorder.py</a>
  &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#setuptools._vendor.ordered_set">setuptools._vendor.ordered_set</a>
@@ -6235,6 +6248,7 @@ imported by:
  &#8226;   <a href="#pycparser.ply.lex">pycparser.ply.lex</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#weakref">weakref</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
@@ -6335,6 +6349,8 @@ imported by:
  &#8226;   <a href="#pymsgbox._native_win">pymsgbox._native_win</a>
  &#8226;   <a href="#pyperclip">pyperclip</a>
  &#8226;   <a href="#pyscreeze">pyscreeze</a>
+ &#8226;   <a href="#scipy._distributor_init">scipy._distributor_init</a>
+ &#8226;   <a href="#scipy._lib._ccallback">scipy._lib._ccallback</a>
  &#8226;   <a href="#setuptools._vendor.packaging.tags">setuptools._vendor.packaging.tags</a>
  &#8226;   <a href="#setuptools.windows_support">setuptools.windows_support</a>
  &#8226;   <a href="#test.support">test.support</a>
@@ -6649,6 +6665,7 @@ imported by:
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#pyscreeze">pyscreeze</a>
  &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#test.support.testresult">test.support.testresult</a>
  &#8226;   <a href="#toml.decoder">toml.decoder</a>
  &#8226;   <a href="#toml.encoder">toml.encoder</a>
@@ -7819,11 +7836,15 @@ imported by:
  &#8226;   <a href="#email.headerregistry">email.headerregistry</a>
  &#8226;   <a href="#email.iterators">email.iterators</a>
  &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.mime">email.mime</a>
+ &#8226;   <a href="#email.mime.base">email.mime.base</a>
+ &#8226;   <a href="#email.mime.nonmultipart">email.mime.nonmultipart</a>
  &#8226;   <a href="#email.parser">email.parser</a>
  &#8226;   <a href="#email.policy">email.policy</a>
  &#8226;   <a href="#email.quoprimime">email.quoprimime</a>
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
+ &#8226;   <a href="#screen recorder.py">screen recorder.py</a>
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
@@ -7935,6 +7956,7 @@ imports:
 imported by:
     <a href="#email.charset">email.charset</a>
  &#8226;   <a href="#email.header">email.header</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
 
   </div>
 
@@ -7960,6 +7982,7 @@ imported by:
  &#8226;   <a href="#email.contentmanager">email.contentmanager</a>
  &#8226;   <a href="#email.header">email.header</a>
  &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.mime.text">email.mime.text</a>
  &#8226;   <a href="#email.utils">email.utils</a>
 
   </div>
@@ -8000,6 +8023,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#email.charset">email.charset</a>
+ &#8226;   <a href="#screen recorder.py">screen recorder.py</a>
 
   </div>
 
@@ -8024,6 +8048,7 @@ imported by:
  &#8226;   <a href="#email.header">email.header</a>
  &#8226;   <a href="#email.headerregistry">email.headerregistry</a>
  &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.mime.nonmultipart">email.mime.nonmultipart</a>
 
   </div>
 
@@ -8069,6 +8094,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#email.message">email.message</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
 
   </div>
 
@@ -8160,9 +8186,105 @@ imported by:
     <a href="#cgi">cgi</a>
  &#8226;   <a href="#email.contentmanager">email.contentmanager</a>
  &#8226;   <a href="#email.feedparser">email.feedparser</a>
+ &#8226;   <a href="#email.mime.base">email.mime.base</a>
  &#8226;   <a href="#email.policy">email.policy</a>
  &#8226;   <a href="#http.client">http.client</a>
  &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="email.mime"></a>
+  <a target="code" href="///C:/users/vicky/appdata/local/programs/python/python39/lib/email/mime/__init__.py" type="text/plain"><tt>email.mime</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#email">email</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#email.mime.base">email.mime.base</a>
+ &#8226;   <a href="#email.mime.multipart">email.mime.multipart</a>
+ &#8226;   <a href="#email.mime.nonmultipart">email.mime.nonmultipart</a>
+ &#8226;   <a href="#email.mime.text">email.mime.text</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="email.mime.base"></a>
+  <a target="code" href="///C:/users/vicky/appdata/local/programs/python/python39/lib/email/mime/base.py" type="text/plain"><tt>email.mime.base</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#email">email</a>
+ &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.mime">email.mime</a>
+ &#8226;   <a href="#email.policy">email.policy</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#email.mime.multipart">email.mime.multipart</a>
+ &#8226;   <a href="#email.mime.nonmultipart">email.mime.nonmultipart</a>
+ &#8226;   <a href="#screen recorder.py">screen recorder.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="email.mime.multipart"></a>
+  <a target="code" href="///C:/users/vicky/appdata/local/programs/python/python39/lib/email/mime/multipart.py" type="text/plain"><tt>email.mime.multipart</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#email.mime">email.mime</a>
+ &#8226;   <a href="#email.mime.base">email.mime.base</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#screen recorder.py">screen recorder.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="email.mime.nonmultipart"></a>
+  <a target="code" href="///C:/users/vicky/appdata/local/programs/python/python39/lib/email/mime/nonmultipart.py" type="text/plain"><tt>email.mime.nonmultipart</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#email">email</a>
+ &#8226;   <a href="#email.errors">email.errors</a>
+ &#8226;   <a href="#email.mime">email.mime</a>
+ &#8226;   <a href="#email.mime.base">email.mime.base</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#email.mime.text">email.mime.text</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="email.mime.text"></a>
+  <a target="code" href="///C:/users/vicky/appdata/local/programs/python/python39/lib/email/mime/text.py" type="text/plain"><tt>email.mime.text</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#email.charset">email.charset</a>
+ &#8226;   <a href="#email.mime">email.mime</a>
+ &#8226;   <a href="#email.mime.nonmultipart">email.mime.nonmultipart</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#screen recorder.py">screen recorder.py</a>
 
   </div>
 
@@ -8208,6 +8330,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.mime.base">email.mime.base</a>
 
   </div>
 
@@ -8259,6 +8382,7 @@ imported by:
  &#8226;   <a href="#email.message">email.message</a>
  &#8226;   <a href="#email.policy">email.policy</a>
  &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
@@ -11052,6 +11176,7 @@ imported by:
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#pyscreeze">pyscreeze</a>
  &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#scipy._lib.deprecation">scipy._lib.deprecation</a>
  &#8226;   <a href="#screen recorder.py">screen recorder.py</a>
  &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools._vendor.packaging.specifiers">setuptools._vendor.packaging.specifiers</a>
@@ -11228,6 +11353,7 @@ imported by:
  &#8226;   <a href="#psutil._psaix">psutil._psaix</a>
  &#8226;   <a href="#psutil._pslinux">psutil._pslinux</a>
  &#8226;   <a href="#psutil._psposix">psutil._psposix</a>
+ &#8226;   <a href="#scipy._distributor_init">scipy._distributor_init</a>
  &#8226;   <a href="#setuptools.command.develop">setuptools.command.develop</a>
  &#8226;   <a href="#setuptools.command.easy_install">setuptools.command.easy_install</a>
  &#8226;   <a href="#setuptools.command.install">setuptools.command.install</a>
@@ -11367,6 +11493,7 @@ imports:
 imported by:
     <a href="#multiprocessing.connection">multiprocessing.connection</a>
  &#8226;   <a href="#secrets">secrets</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
 
   </div>
 
@@ -11581,7 +11708,6 @@ imports:
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
- &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#types">types</a>
@@ -11697,7 +11823,6 @@ imports:
 imported by:
     <a href="#_distutils_hack">_distutils_hack</a>
  &#8226;   <a href="#_pytest.assertion.rewrite">_pytest.assertion.rewrite</a>
- &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
  &#8226;   <a href="#win32ctypes.core">win32ctypes.core</a>
@@ -11815,6 +11940,7 @@ imported by:
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#runpy">runpy</a>
+ &#8226;   <a href="#scipy._lib._testutils">scipy._lib._testutils</a>
  &#8226;   <a href="#setuptools._imp">setuptools._imp</a>
  &#8226;   <a href="#setuptools.extern">setuptools.extern</a>
  &#8226;   <a href="#setuptools.py34compat">setuptools.py34compat</a>
@@ -12013,6 +12139,7 @@ imported by:
  &#8226;   <a href="#setuptools.msvc">setuptools.msvc</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#shlex">shlex</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#socket">socket</a>
  &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#subprocess">subprocess</a>
@@ -12086,6 +12213,7 @@ imported by:
  &#8226;   <a href="#pyparsing">pyparsing</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#scipy._lib._pep440">scipy._lib._pep440</a>
  &#8226;   <a href="#setuptools._vendor.ordered_set">setuptools._vendor.ordered_set</a>
  &#8226;   <a href="#setuptools._vendor.packaging.specifiers">setuptools._vendor.packaging.specifiers</a>
  &#8226;   <a href="#setuptools._vendor.packaging.version">setuptools._vendor.packaging.version</a>
@@ -13530,6 +13658,7 @@ imported by:
  &#8226;   <a href="#numpy.testing._private.utils">numpy.testing._private.utils</a>
  &#8226;   <a href="#numpy.version">numpy.version</a>
  &#8226;   <a href="#pyscreeze">pyscreeze</a>
+ &#8226;   <a href="#scipy">scipy</a>
  &#8226;   <a href="#screen recorder.py">screen recorder.py</a>
  &#8226;   <a href="#toml.encoder">toml.encoder</a>
 
@@ -14921,6 +15050,7 @@ imported by:
  &#8226;   <a href="#numpy.fft._pocketfft">numpy.fft._pocketfft</a>
  &#8226;   <a href="#numpy.fft._pocketfft_internal">numpy.fft._pocketfft_internal</a>
  &#8226;   <a href="#numpy.fft.helper">numpy.fft.helper</a>
+ &#8226;   <a href="#scipy">scipy</a>
 
   </div>
 
@@ -15472,6 +15602,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#numpy.lib">numpy.lib</a>
+ &#8226;   <a href="#scipy">scipy</a>
 
   </div>
 
@@ -16196,6 +16327,8 @@ imports:
  &#8226;   <a href="#numpy.random._sfc64">numpy.random._sfc64</a>
  &#8226;   <a href="#numpy.random.bit_generator">numpy.random.bit_generator</a>
  &#8226;   <a href="#numpy.random.mtrand">numpy.random.mtrand</a>
+ &#8226;   <a href="#numpy.random.rand">numpy.random.rand</a>
+ &#8226;   <a href="#numpy.random.randn">numpy.random.randn</a>
 
   </div>
   <div class="import">
@@ -16212,6 +16345,7 @@ imported by:
  &#8226;   <a href="#numpy.random._sfc64">numpy.random._sfc64</a>
  &#8226;   <a href="#numpy.random.bit_generator">numpy.random.bit_generator</a>
  &#8226;   <a href="#numpy.random.mtrand">numpy.random.mtrand</a>
+ &#8226;   <a href="#scipy">scipy</a>
 
   </div>
 
@@ -16375,6 +16509,30 @@ imports:
 imported by:
     <a href="#numpy.random">numpy.random</a>
  &#8226;   <a href="#numpy.random._pickle">numpy.random._pickle</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="numpy.random.rand"></a>
+  <a target="code" href="" type="text/plain"><tt>numpy.random.rand</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#numpy.random">numpy.random</a>
+ &#8226;   <a href="#scipy">scipy</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="numpy.random.randn"></a>
+  <a target="code" href="" type="text/plain"><tt>numpy.random.randn</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#numpy.random">numpy.random</a>
+ &#8226;   <a href="#scipy">scipy</a>
 
   </div>
 
@@ -17025,6 +17183,10 @@ imported by:
  &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#runpy">runpy</a>
+ &#8226;   <a href="#scipy.__config__">scipy.__config__</a>
+ &#8226;   <a href="#scipy._distributor_init">scipy._distributor_init</a>
+ &#8226;   <a href="#scipy._lib._testutils">scipy._lib._testutils</a>
+ &#8226;   <a href="#screen recorder.py">screen recorder.py</a>
  &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools._imp">setuptools._imp</a>
  &#8226;   <a href="#setuptools._vendor.packaging.markers">setuptools._vendor.packaging.markers</a>
@@ -18314,6 +18476,7 @@ imported by:
  &#8226;   <a href="#psutil._pssunos">psutil._pssunos</a>
  &#8226;   <a href="#psutil._psutil_windows">psutil._psutil_windows</a>
  &#8226;   <a href="#psutil._pswindows">psutil._pswindows</a>
+ &#8226;   <a href="#scipy._lib._testutils">scipy._lib._testutils</a>
 
   </div>
 
@@ -19890,6 +20053,8 @@ imported by:
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
  &#8226;   <a href="#pyparsing">pyparsing</a>
+ &#8226;   <a href="#scipy._lib._pep440">scipy._lib._pep440</a>
+ &#8226;   <a href="#scipy._lib._testutils">scipy._lib._testutils</a>
  &#8226;   <a href="#screen recorder.py">screen recorder.py</a>
  &#8226;   <a href="#setuptools">setuptools</a>
  &#8226;   <a href="#setuptools._vendor.packaging.requirements">setuptools._vendor.packaging.requirements</a>
@@ -19909,6 +20074,7 @@ imported by:
  &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
  &#8226;   <a href="#setuptools.wheel">setuptools.wheel</a>
  &#8226;   <a href="#shlex">shlex</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#string">string</a>
  &#8226;   <a href="#sysconfig">sysconfig</a>
  &#8226;   <a href="#tarfile">tarfile</a>
@@ -21472,6 +21638,35 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="smtplib"></a>
+  <a target="code" href="///C:/users/vicky/appdata/local/programs/python/python39/lib/smtplib.py" type="text/plain"><tt>smtplib</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#base64">base64</a>
+ &#8226;   <a href="#copy">copy</a>
+ &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#email.base64mime">email.base64mime</a>
+ &#8226;   <a href="#email.generator">email.generator</a>
+ &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#hmac">hmac</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#ssl">ssl</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#screen recorder.py">screen recorder.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="socket"></a>
   <a target="code" href="///C:/users/vicky/appdata/local/programs/python/python39/lib/socket.py" type="text/plain"><tt>socket</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -21512,6 +21707,7 @@ imported by:
  &#8226;   <a href="#psutil._pssunos">psutil._pssunos</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
@@ -21633,6 +21829,7 @@ imported by:
  &#8226;   <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#http.client">http.client</a>
  &#8226;   <a href="#setuptools.ssl_support">setuptools.ssl_support</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
@@ -22229,6 +22426,9 @@ imported by:
  &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#quopri">quopri</a>
  &#8226;   <a href="#runpy">runpy</a>
+ &#8226;   <a href="#scipy">scipy</a>
+ &#8226;   <a href="#scipy.__config__">scipy.__config__</a>
+ &#8226;   <a href="#scipy._lib._testutils">scipy._lib._testutils</a>
  &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#setuptools._vendor.packaging._compat">setuptools._vendor.packaging._compat</a>
  &#8226;   <a href="#setuptools._vendor.packaging.markers">setuptools._vendor.packaging.markers</a>
@@ -22252,6 +22452,7 @@ imported by:
  &#8226;   <a href="#setuptools.unicode_utils">setuptools.unicode_utils</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#shutil">shutil</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#socket">socket</a>
  &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
@@ -22633,6 +22834,7 @@ imported by:
  &#8226;   <a href="#pywin.dialogs.status">pywin.dialogs.status</a>
  &#8226;   <a href="#queue">queue</a>
  &#8226;   <a href="#random">random</a>
+ &#8226;   <a href="#screen recorder.py">screen recorder.py</a>
  &#8226;   <a href="#setuptools.command.egg_info">setuptools.command.egg_info</a>
  &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#ssl">ssl</a>
@@ -23800,6 +24002,9 @@ imported by:
  &#8226;   <a href="#pytest.collect">pytest.collect</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#runpy">runpy</a>
+ &#8226;   <a href="#scipy">scipy</a>
+ &#8226;   <a href="#scipy._lib._testutils">scipy._lib._testutils</a>
+ &#8226;   <a href="#scipy._lib.deprecation">scipy._lib.deprecation</a>
  &#8226;   <a href="#screen recorder.py">screen recorder.py</a>
  &#8226;   <a href="#setuptools._vendor.packaging.tags">setuptools._vendor.packaging.tags</a>
  &#8226;   <a href="#setuptools._vendor.pyparsing">setuptools._vendor.pyparsing</a>
@@ -23810,6 +24015,7 @@ imported by:
  &#8226;   <a href="#setuptools.dist">setuptools.dist</a>
  &#8226;   <a href="#setuptools.package_index">setuptools.package_index</a>
  &#8226;   <a href="#shlex">shlex</a>
+ &#8226;   <a href="#smtplib">smtplib</a>
  &#8226;   <a href="#sre_parse">sre_parse</a>
  &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#subprocess">subprocess</a>
