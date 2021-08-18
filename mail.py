@@ -9,7 +9,7 @@ def hacked():
     from email import encoders
 
     fromaddr = "imvickykumar999@gmail.com"
-    toaddr = "hellovickykumar123@gmail.com"
+    toaddr = ["hellovickykumar123@gmail.com", fromaddr][1]
     filename = 'recording.mp3'
 
     msg = MIMEMultipart()
