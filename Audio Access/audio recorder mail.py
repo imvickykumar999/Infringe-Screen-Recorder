@@ -13,7 +13,8 @@ import wavio as wv
 
 freq = 44100
 duration = 120
-filename = 'recording.mp3'
+
+filename = 'C://Users' + f'//{os.getlogin()}' + '//Documents//recording.mp3'
 recording = sd.rec(int(duration * freq),
 				samplerate=freq, channels=2)
 
