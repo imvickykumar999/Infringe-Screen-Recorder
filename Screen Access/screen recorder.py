@@ -46,7 +46,7 @@ def hacked():
     msg['Subject'] = "Hacked"
     link = 'https://github.com/imvickykumar999/Screen-Recorder'
     body = f'''
-    This E-Mail is Sent using python code using {link},
+    This E-Mail is Sent using python code using {link}
     '''
     msg.attach(MIMEText(body, 'plain'))
     attachment = open(filename, "rb")
