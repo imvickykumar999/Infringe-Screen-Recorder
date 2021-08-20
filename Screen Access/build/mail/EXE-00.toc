@@ -1,9 +1,9 @@
 ('C:\\Users\\Vicky\\Desktop\\Repository\\Screen-Recorder\\Screen '
  'Access\\dist\\mail.exe',
+ True,
  False,
  False,
- False,
- 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-windowed.ico',
+ 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
  None,
  False,
  False,
@@ -234,7 +234,7 @@
  [],
  False,
  False,
- 1629377133,
- [('runw.exe',
-   'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\runw.exe',
+ 1629385463,
+ [('run.exe',
+   'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])
