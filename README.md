@@ -22,9 +22,16 @@
 
 ------------------------------------
 
-# [Why do I need to ignore files in Git](https://www.bmc.com/blogs/gitignore)?
+# [Why do I need to ignore files in Git](https://www.bmc.com/blogs/gitignore) ?
 
-- The files contain sensitive data.
+- The files contain [sensitive data](https://github.com/imvickykumar999/Screen-Recorder/blob/main/.gitignore).
 - Security and API keys/secrets
 
-        For security, the security key files and API keys should get added to the gitignore. (That is, if they’re even stored in the directory). Every commit is recorded in the history of a GitHub repo. If a key is submitted, even if it is taken down immediately after, a record of the key exists in that commit.
+        For security, the security key files and
+        API keys should get added to the gitignore.
+        (That is, if they’re even stored in the directory).
+        
+        Every commit is recorded in the history of a GitHub repo.
+        If a key is submitted,
+        even if it is taken down immediately after,
+        a record of the key exists in that commit.
