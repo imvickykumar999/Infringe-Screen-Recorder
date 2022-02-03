@@ -14,6 +14,8 @@
     cd dist
     "screen recorder.exe"
 
+#### pyinstaller --onefile --noconsole "audio recorder mail.py"
+
 ------------------------------------
 
 # File Upload
@@ -32,7 +34,7 @@
         For security, the security key files and
         API keys should get added to the gitignore.
         (That is, if they’re even stored in the directory).
-        
+
         Every commit is recorded in the history of a GitHub repo.
         If a key is submitted,
         even if it is taken down immediately after,

