@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['send_log.py'],
-             pathex=['C:\\Users\\Vicky\\Desktop\\Repository\\Basics-of-Python\\Libraries\\Hack\\key logger'],
+             pathex=['C:\\Users\\Vicky\\Desktop\\Repository\\Screen-Recorder\\key logger'],
              binaries=[],
              datas=[],
              hiddenimports=[],

@@ -1,0 +1,89 @@
+Microsoft Windows [Version 10.0.22000.526]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Vicky\Desktop\Repository\Screen-Recorder\key logger>pyinstaller --onefile --noconsole send_log.py
+313 INFO: PyInstaller: 4.5.1
+313 INFO: Python: 3.9.5
+329 INFO: Platform: Windows-10-10.0.22000-SP0
+329 INFO: wrote C:\Users\Vicky\Desktop\Repository\Screen-Recorder\key logger\send_log.spec
+329 INFO: UPX is not available.
+345 INFO: Extending PYTHONPATH with paths
+['C:\\Users\\Vicky\\Desktop\\Repository\\Screen-Recorder\\key logger',
+ 'C:\\Users\\Vicky\\Desktop\\Repository\\Screen-Recorder\\key logger']
+1414 INFO: checking Analysis
+1414 INFO: Building Analysis because Analysis-00.toc is non existent
+1414 INFO: Initializing module dependency graph...
+1429 INFO: Caching module graph hooks...
+1461 INFO: Analyzing base_library.zip ...
+6672 INFO: Processing pre-find module path hook distutils from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path\\hook-distutils.py'.
+6674 INFO: distutils: retargeting to non-venv dir 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib'
+14153 INFO: Caching module dependency graph...
+14560 INFO: running Analysis Analysis-00.toc
+14596 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
+  required by c:\users\vicky\appdata\local\programs\python\python39\python.exe
+14714 WARNING: lib not found: api-ms-win-core-path-l1-1-0.dll dependency of c:\users\vicky\appdata\local\programs\python\python39\python39.dll
+14998 INFO: Analyzing C:\Users\Vicky\Desktop\Repository\Screen-Recorder\key logger\send_log.py
+16005 INFO: Processing module hooks...
+16006 INFO: Loading module hook 'hook-certifi.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+16032 INFO: Loading module hook 'hook-httplib2.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+16041 INFO: Loading module hook 'hook-difflib.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16042 INFO: Loading module hook 'hook-distutils.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16042 INFO: Loading module hook 'hook-distutils.util.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16060 INFO: Loading module hook 'hook-encodings.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16181 INFO: Loading module hook 'hook-heapq.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16181 INFO: Loading module hook 'hook-lib2to3.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16279 INFO: Loading module hook 'hook-multiprocessing.util.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16284 INFO: Loading module hook 'hook-pickle.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16288 INFO: Loading module hook 'hook-sysconfig.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16294 INFO: Loading module hook 'hook-xml.etree.cElementTree.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16298 INFO: Loading module hook 'hook-xml.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16572 INFO: Loading module hook 'hook-_tkinter.py' from 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks'...
+16925 INFO: checking Tree
+16925 INFO: Building Tree because Tree-00.toc is non existent
+16926 INFO: Building Tree Tree-00.toc
+17005 INFO: checking Tree
+17005 INFO: Building Tree because Tree-01.toc is non existent
+17005 INFO: Building Tree Tree-01.toc
+17137 INFO: checking Tree
+17137 INFO: Building Tree because Tree-02.toc is non existent
+17137 INFO: Building Tree Tree-02.toc
+17179 INFO: Looking for ctypes DLLs
+17204 INFO: Analyzing run-time hooks ...
+17204 INFO: Including run-time hook 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py'
+17219 INFO: Including run-time hook 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py'
+17219 INFO: Including run-time hook 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py'
+17219 INFO: Including run-time hook 'c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\pyi_rth_certifi.py'
+17254 INFO: Looking for dynamic libraries
+17535 INFO: Looking for eggs
+17535 INFO: Using Python library c:\users\vicky\appdata\local\programs\python\python39\python39.dll
+17536 INFO: Found binding redirects:
+[]
+17541 INFO: Warnings written to C:\Users\Vicky\Desktop\Repository\Screen-Recorder\key logger\build\send_log\warn-send_log.txt
+17600 INFO: Graph cross-reference written to C:\Users\Vicky\Desktop\Repository\Screen-Recorder\key logger\build\send_log\xref-send_log.html
+17617 INFO: checking PYZ
+17618 INFO: Building PYZ because PYZ-00.toc is non existent
+17618 INFO: Building PYZ (ZlibArchive) C:\Users\Vicky\Desktop\Repository\Screen-Recorder\key logger\build\send_log\PYZ-00.pyz
+18834 INFO: Building PYZ (ZlibArchive) C:\Users\Vicky\Desktop\Repository\Screen-Recorder\key logger\build\send_log\PYZ-00.pyz completed successfully.
+18954 INFO: checking PKG
+18957 INFO: Building PKG because PKG-00.toc is non existent
+18958 INFO: Building PKG (CArchive) PKG-00.pkg
+23118 INFO: Building PKG (CArchive) PKG-00.pkg completed successfully.
+23145 INFO: Bootloader c:\users\vicky\appdata\local\programs\python\python39\lib\site-packages\PyInstaller\bootloader\Windows-64bit\runw.exe
+23151 INFO: checking EXE
+23166 INFO: Building EXE because EXE-00.toc is non existent
+23168 INFO: Building EXE from EXE-00.toc
+23190 INFO: Copying icons from ['c:\\users\\vicky\\appdata\\local\\programs\\python\\python39\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-windowed.ico']
+23328 INFO: Writing RT_GROUP_ICON 0 resource with 104 bytes
+23328 INFO: Writing RT_ICON 1 resource with 3752 bytes
+23329 INFO: Writing RT_ICON 2 resource with 2216 bytes
+23330 INFO: Writing RT_ICON 3 resource with 1384 bytes
+23331 INFO: Writing RT_ICON 4 resource with 38188 bytes
+23331 INFO: Writing RT_ICON 5 resource with 9640 bytes
+23333 INFO: Writing RT_ICON 6 resource with 4264 bytes
+23333 INFO: Writing RT_ICON 7 resource with 1128 bytes
+23343 INFO: Updating manifest in C:\Users\Vicky\Desktop\Repository\Screen-Recorder\key logger\build\send_log\runw.exe._aea87vf
+23357 INFO: Updating resource type 24 name 1 language 0
+23363 INFO: Appending archive to EXE C:\Users\Vicky\Desktop\Repository\Screen-Recorder\key logger\dist\send_log.exe
+31050 INFO: Building EXE from EXE-00.toc completed successfully.
+
+C:\Users\Vicky\Desktop\Repository\Screen-Recorder\key logger>
