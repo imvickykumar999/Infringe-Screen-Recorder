@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ideationology-lab",
+  "private_key_id": "b60654e44e374fcef323da3c8be08baf0a2ea337",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZHKRWEHqO9mzU\nb2shMNhix7b5Uul23VCbItNAXPuiHjAbBq4CIPMnBKvV/X5HLM/48Tj4xdTVV1dL\nzzHPk1hMXvXYDEeVAMTAxFCmO0fmXyBbwwIxVfYq3asWnEfsLKaeIHJ1Hk+3vosF\ncT8ODz6LwwPEl46mRTY9+VHtz+0w2FOacf1RYqRCWNx+I2GhFH4jAK4MgdRFRpUi\n8UpvdKiBrK3NahObw49BT1wkFfKQHzt5yKuZRzu6PkiotEd46DuhpBSuaLvXrDUo\nDZky4qq4H0cKB98LxCdHLn+U9PQQ9bOFIZvxxZH3F/m35/KjMgOco5Xt9zNb9mR4\n0YaFnGIhAgMBAAECggEACAkcSNYJkJo3QPjt/upw2NJRdIlY7l+UHOg5fQ3EORBr\nhueVV1BCYqBYolzw9SxRZ+fFDS1Yy6+PSc/AdfvuLOfo8CNI2HWXXeSPtQG0ds80\nRAyaf1tbFYnXslKWZbs8LV1XlHT4SxTpd+onHIZJSo18E6O+nVRRkfQVTC1W7fK/\ns8I2K3KWG/e3NOxYDYCoiUSCLx6Ac6XYwucg6OtH21aDzTCm/9TtZgJwmIFEye3R\njTBKep1Rfxgq0RugLIoYNTnQayOGd2bRpz8kCYI25yjWbYCW/pRCWqClXVLDv5wy\n47EMcDT6mVt0GlYbMwznyoYBs+fAshGwlhXMlzKddwKBgQDRrnEbGHt+jqIiwGKT\nsuVci8aF0xNed26kzIsGJtKj9e/DPjCe4esyBz7ZCLCuA/CsJcfLaoULh7x/WbrF\nIvjtytPSDvwvi2L6+7Oer/CrY3b7v4K+bt9e3JDUt5xVW97g1cnZRxHa3+UvsfRf\nPRI8vi9UsJ5uqN637l4p/LRFewKBgQC67yxRjo1YDKuCzU4cR18/OBphHbrbUI57\n1j1+TEQHs0UABGE5cbD5T10EizxiV4PbgZDiWR+84Bn2w68rnPUqYwly0b4T4Gqk\nV4ku0wM8AANjpDTH9HDmt7mKtqIdGQ1CQ0ahyYWe4EP8PdUYIdPL0uU4zGdGS2I0\nF/MRu8OOEwKBgQDN/G7EzZJUS87gENtGedJ0ziOiyC8Y+H9Lil1xF6aKyEpYJboh\n+5LQPOny0GSxLtG6bAsQvH4jS59UBFRE4gxlnoHktC/ujSIZqjdUx0bJOBdlTUgl\nyEnLqSbmsdH00SHtAlkfCIBz4swFxO5quVY3MibRLgkWcPMLAjKjUMvQDQKBgBE+\ny1niystar9/rTM9zDiho5pYbBggBkIOAKkAijQwgz7bGsKl6AZeeaLhol/OCm1l+\nxHz9N95W1k5bkyd03XFBnbeH/f8bbvsmUDOPp/a7EZT5qxzfQiMmw+k2HBKPIxf/\n2N5IFxmnGt6EXcpSJJXjKN5qjQSBI9gmdXgnWE0dAoGAJGjCn9D/1ZqE1CVXuv8g\nzjOc6IuJIpoimPRS1T8nrwhd1rFsJUI+Zqjd2CTM3Z3SI7OEFsLJ7Zg51tYLK9fl\nqbVm5jb+oIyjoFujQ/DamKqwUdwF11WUBX4ItgkUN1qix3/XeFNG0r9FpVit4pII\nKhxtuFuy+JU5IurFEnprugY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ideationology@ideationology-lab.iam.gserviceaccount.com",
+  "client_id": "105103137035687901193",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ideationology%40ideationology-lab.iam.gserviceaccount.com"
+}
