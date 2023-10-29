@@ -22,6 +22,7 @@ sd.wait()
 wv.write(filename, recording, freq, sampwidth=2)
 
 # https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4NCqPzrmYABGDvDXRZ2otRGTMvD3g1gchNo0HTKiGEIr3HlCp-RFNAtMwvDEpYACPiCBp2ggt9X5ztsf1LUR5dVhW6nag
+# https://myaccount.google.com/u/2/account-enhanced-safe-browsing?utm_source=gmail&utm_medium=web&utm_campaign=esb_workflow_assist_card&pli=1&gar=1
 
 def hacked():
     try:

@@ -1,3 +1,6 @@
+
+# pip install sounddevice
+
 # import required libraries
 import sounddevice as sd
 from scipy.io.wavfile import write
@@ -19,7 +22,7 @@ sd.wait()
 
 # This will convert the NumPy array to an audio
 # file with the given sampling frequency
-# write("recording.mp3", freq, recording)
+write("recording.mp3", freq, recording)
 
 # Convert the NumPy array to audio file
 wv.write("recording.mp3", recording, freq, sampwidth=2)

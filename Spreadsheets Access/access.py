@@ -7,7 +7,7 @@ scope = ['https://spreadsheets.google.com/feeds',
 
 def set_permission(
         jfile = 'client.json',
-        url = 'https://docs.google.com/spreadsheets/d/1TzU5cb5rGS7FHopqprylwXwfN0cUkOYnJlwK0zmUHcs/edit?usp=sharing',
+        url = 'https://docs.google.com/spreadsheets/d/103MOtyADixvjiKmg0XBNFo1FTy4fdxWJZ4ckyt4imMc/edit?usp=sharing',
         sheet_share = '18erecs080.vicky@rietjaipur.ac.in',
     ):
 
