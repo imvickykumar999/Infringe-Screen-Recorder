@@ -1,9 +1,11 @@
 
+# https://github.com/imvickykumar999/ADB-Screen-Copy/releases
 # pyinstaller --onefile ScrCpy_GUI.py
 
 import os, json
 import threading
 from tkinter import *
+from tkinterweb import HtmlFrame
 
 ip = input('''
 ----------------------------------------
@@ -67,13 +69,18 @@ def task2():
         root.config(bg="gray")
 
         try:
+            bg = PhotoImage(file = "Executable/wallpaper.png") 
+            label = Label(root, image = bg) 
+            label.place(x = 0, y = 0) 
+        except:
+            frame = HtmlFrame(root)
+            frame.load_website("https://github.com/imvickykumar999/ADB-Screen-Copy/blob/main/Projects/TkinterGUI/Executable/wallpaper.png?raw=true")
+            frame.pack(fill="both", expand=True)
+
+        try:
             rely3 = 0.7
             rely4 = 0.8
             rely5 = 0.9
-
-            bg = PhotoImage(file = "Executable/wallpaper.png") 
-            label = Label( root, image = bg) 
-            label.place(x = 0, y = 0) 
 
             num_list = Listbox(root, height=15, width=30)
             with open('Executable/keyevents.json') as f:
